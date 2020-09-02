@@ -1,0 +1,74 @@
+body {
+  font-family: sans-serif;
+  background: url(../img/background-up.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 1000px;
+  background-position: center;
+  overflow: hidden;
+}
+
+.header__wrapper {
+  position: sticky;
+  top: 0;
+  background-color: transparent;
+  color: white;
+}
+
+.header__logo a {
+  filter: invert();
+}
+
+.header__navbar ul li #active {
+  border-color: white;
+}
+
+.header__navbar ul li:hover {
+  border-color: white;
+}
+
+.upload__wrapper {
+  margin: 80px auto;
+  color: white;
+}
+
+.upload__wrapper .upload {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  padding: 30px;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 15px;
+  min-width: 700px;
+}
+
+.upload__wrapper .upload {
+  font-family: sans-serif;
+}
+
+.upload h1 {
+  margin: 30px auto;
+}
+
+.upload form input {
+  width: 60%;
+  padding: 10px;
+  margin: 5px 0px;
+}
+
+.upload form textarea {
+  width: 60%;
+  padding: 10px;
+  outline: none;
+}
+
+.upload form button {
+  padding: 15px 40px;
+  margin: 20px 0px;
+  font-weight: bolder;
+  outline: none;
+  border-radius: 10px;
+  background-color: white;
+  border: none;
+  font-size: 15px;
+}

@@ -1,0 +1,50 @@
+.content__login__as {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 30%;
+  height: 50%;
+  min-width: 800px;
+  padding: 20px;  
+  text-align: center;
+}
+
+.content__login__as .content__ct {
+  margin: 20px;
+}
+
+.content__login__as .content__ct h2 {
+  margin-bottom: 30px;
+}
+
+.content__login__as .content__ct p {
+  margin-bottom: 50px;
+}
+
+.content__login__as .content__button__choice p a {
+  text-decoration: none;
+  transition: font-weight 0.2s;
+}
+
+.content__login__as .content__button__choice p a:hover {
+  font-weight: bolder;
+}
+
+.content__button__choice p #admin {
+  display: block;
+  background-color: black;
+  color: white;
+  padding: 15px 30px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.content__button__choice p #guest {
+  padding: 15px 30px;
+  margin: 10px;
+  color: black;
+  border: 2px solid black;
+  display: block;
+  border-radius: 10px;
+}

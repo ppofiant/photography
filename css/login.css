@@ -1,0 +1,36 @@
+.login__form {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 30%;
+  height: 50%;
+  min-width: 800px;
+  padding: 20px;  
+  text-align: center;
+}
+
+.login__form h2 {
+  font-size: 30px;
+  margin: 30px;
+}
+
+.login__form form {
+  display: block;
+}
+
+.login__form form input{
+  outline: none;
+  border: none;
+  padding: 10px 30px;
+  margin: 10px auto;
+  border-bottom: 1px solid black;
+}
+
+.login__form form button {
+  margin: 20px;
+  background-color: black;
+  color: white;
+  padding: 13px 45px;
+  border-radius: 10px;
+}
